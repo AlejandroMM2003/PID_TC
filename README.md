@@ -31,7 +31,7 @@ while True:
     Salida = Controlador.PIDf(Setpoint,Medida)
 ```
 ---
-## Instalacion y uso en Arduino IDE.
+## Instalación y uso en Arduino IDE.
 Simplemente descarga *.zip e instalala en el IDE con: Sketch > Include Library > Add .ZIP library...
 
 Ejemplo de uso:
