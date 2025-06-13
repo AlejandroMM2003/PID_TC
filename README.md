@@ -32,7 +32,7 @@ while True:
 ```
 ---
 ## Instalación y uso en Arduino IDE.
-Simplemente descarga *.zip e instalala en el IDE con: Sketch > Include Library > Add .ZIP library...
+Simplemente descarga Libreria_PID.zip e instalala en el IDE con: Sketch > Include Library > Add .ZIP library...
 
 Ejemplo de uso:
 ```cpp
