@@ -7,14 +7,14 @@ import micropip
 
 async def instalar():
     await micropip.install("git+https://github.com/AlejandroMM2003/PID_TC.git@main#subdirectory=python")
-    import Modulo_PID
+    import Modulos_PID
 
 await instalar()
 ```
 Este archivo incluye un objeto tipo Funciones_PID() con 3 metodos correspondientes a los 3 PID's propuestos.
 En cada iteracion de bucle se hace una llamada a uno de los 3 metodos para calcular una salida en base a los datos proporcionados al constructor.
 ```python
-import Modulo_PID
+import Modulos_PID
 
 Kp = 2
 Ki = 0.25
@@ -80,5 +80,4 @@ void loop() {
     // Aquí usarías 'salida' para controlar actuadores, motores, etc.
   }
 }
-
 ```
